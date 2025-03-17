@@ -14,5 +14,21 @@
     border-radius: 5px;     
     background-color: lightcoral;
     width: calc(100vw / 4);
-    height: calc(100vh / 4);
+    height: calc(100vh / 4);    
 }   
+
+.hovered-square {
+    box-sizing: border-box; /* makes sure the margin/padding doing effect size*/
+    border: 4px solid black;  
+    border-radius: 5px;     
+    background-color: lightblue;
+    width: calc(100vw / 4);
+    height: calc(100vh / 4);    
+}   
+
+.pen-trail {
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 2px;
+}
